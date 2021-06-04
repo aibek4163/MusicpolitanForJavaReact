@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.between2 {
+  display: flex;
+  flew-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.325rem;
+  word-spacing: 1px;
+}
+
+.main_wrapper {
+  max-width: 1390px;
+  min-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.iris {
+  /* background-image: url("https://i0.wp.com/storage.googleapis.com/kp-wordpress-media/2021/03/7f80bc6a-b4d204dc-0fd5-4903-a6c7-49610ba4cdcc-e1616793760792.jpeg?w=680"); */
+  background-repeat: no-repeat;
+  height: 55vh;
+  background-size: cover;
+}
+
+.news_wrapper {
+  background-color: #f7f6f6;
+}
+
+.details_wrapper {
+  background-color: #f7f6f6;
+}
+
+.card-hover:hover.card-bottom {
+  backdrop-filter: blur(2px);
+  position: absolute;
+  bottom: 0px;
+}
+
+.card-bottom {
+  backdrop-filter: blur(9px);
+  background-color: rgba(0, 0, 0, 0.15);
+  position: absolute;
+  bottom: 0px;
+}
+
+.swiper-slide {
+  background: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 200px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.test {
+  display: flex;
+  justify-content: space-between;
+}
